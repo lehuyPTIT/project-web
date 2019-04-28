@@ -1,0 +1,22 @@
+body{
+	font-family: Arial;
+}
+.containers{
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+}
+.hearder{
+	grid-column: 1/4;
+}
+.menu{
+	grid-column: 1/4;
+}
+.events-near{
+	grid-column: 2/3;
+}
+.group-near{
+	grid-column: 2/3;
+}
+.Categpries{
+	grid-column: 2/3;
+}
