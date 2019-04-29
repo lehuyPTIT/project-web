@@ -1,0 +1,49 @@
+
+.list-events-near{
+	display: flex;
+	justify-content: space-between;
+}
+.events-near{
+	border: 1px solid #DDD;
+	border-radius: 0.4em;
+	padding: 1em 1.5em;
+	width: 25%;
+	box-shadow: 1px 1px 1px #DDD;
+	
+	
+
+}
+.title-event{
+	padding: 1em 0em;
+}
+.events-near .date{
+	color: #00a2c7;
+	font-size: 0.7em;
+	padding-bottom: 1em;
+}
+.info .text{
+	font-size:0.8em;
+	color:#333333;
+	padding: 1em 0em;
+}
+.info .text+div{
+	color: #AAA;
+	font-size: 0.7em;
+}
+.button .time {
+	color: #AAA;
+	font-size:0.7em;
+	padding-top: 1em;
+}
+.button{
+	padding-top: 2em;
+	display: flex;
+	justify-content: space-between;
+}
+.button .time+div{
+	color: #FFF;
+	border: 1px solid #DDD;
+	padding:0.5em 1em;
+	border-radius: 0.4em;
+	background-color: #00a2c7;
+}

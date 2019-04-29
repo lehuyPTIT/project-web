@@ -11,8 +11,10 @@ body{
 .menu{
 	grid-column: 1/4;
 }
-.events-near{
+.content{
 	grid-column: 2/3;
+	
+
 }
 .group-near{
 	grid-column: 2/3;
