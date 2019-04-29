@@ -1,6 +1,12 @@
 .list-group-near{
 	display: flex;
 	justify-content: space-between;
+
+}
+.group-near:hover{
+	transition: 0.5s;
+	transform: translate(0px,-1px);
+	box-shadow: 3px 3px 10px #DDD;
 }
 .groups-list .title-group{
 	margin: 2em 0 1em 0;
