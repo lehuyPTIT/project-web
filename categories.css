@@ -1,0 +1,32 @@
+.title-Categpries .title-cate{
+	font-weight: bold;
+	color: #111;
+	font-size: 1.1em;
+}
+.title-Categpries .title-cate+div{
+	font-size: 0.9em;
+	color: #555;
+	padding-top:5px;
+	margin-bottom: 15px;
+}
+.row-element{
+	display: flex;
+	justify-content: space-between;
+}
+.Categpries{
+	padding-top: 3em;
+}
+.row-element{
+	padding-top: 1em;
+}
+.image-element{
+	width: 300px;
+	height: 191px;
+	border-radius: 7px;
+	overflow: hidden;
+}
+.element .image-element+div{
+	margin-top: 0.5em;
+	font-size: 0.9em;
+	font-weight: bolder;
+}
