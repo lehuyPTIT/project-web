@@ -9,6 +9,9 @@ body{
 	grid-column: 1/4;
 }
 .menu{
+	grid-column: 2/3;
+}
+.align{
 	grid-column: 1/4;
 }
 .content{
