@@ -1,9 +1,14 @@
 body{
 	font-family: Arial;
+	margin: 0px;
 }
+
 .containers{
 	display: grid;
 	grid-template-columns: 1fr 5fr 1fr;
+}
+.item{
+	grid-column: 1/4;
 }
 .hearder{
 	grid-column: 1/4;
