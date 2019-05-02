@@ -33,6 +33,45 @@
 	font-size: 0.8em;
 }
 .video{
-	width: 100%;
-	height: 440px;
+	min-height: 645px;
+	position: relative;
+	display: flex;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	overflow:hidden;
+	}
+.video video{
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
 }
+.it{
+	z-index: 100;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.it .text-title{
+	font-size: 65px;
+	font-weight: bold;
+}
+.it .text-ele{
+	font-size: 30px;
+	font-weight: bold;
+
+}
+.it .button{
+	margin: 40px;
+	background-color: red;
+	padding:20px 100px;
+	border-radius: 10px;
+	text-decoration: none;
+	
+}
+
