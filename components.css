@@ -30,3 +30,6 @@ body{
 .Categpries{
 	grid-column: 2/3;
 }
+.seach{
+	grid-column: 1/4;
+}
